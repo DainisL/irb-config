@@ -20,7 +20,7 @@ module IRB
       IRB.try_require 'pry-doc'
       IRB.try_require 'pry-debugger'
       IRB.try_require 'pry-byebug'
-      IRB.try_require 'pry-stack_explorer'
+
     end
 
     def self.trap_winchange
