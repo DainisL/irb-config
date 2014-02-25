@@ -18,8 +18,8 @@ module IRB
 
     def self.load_pry_plugins
       IRB.try_require 'pry-doc'
-      IRB.try_require 'pry-debugger'
-      IRB.try_require 'pry-byebug'
+      IRB.try_require 'pry-debugger' if RUBY_VERSION.to_i < 2
+      IRB.try_require 'pry-byebug' if RUBY_VERSION.to_i >= 2
 
     end
 
