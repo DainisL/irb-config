@@ -5,7 +5,7 @@ Prerequisites: rvm or rbenv.
 
 To install, run
 
-    git clone git://github.com/nviennot/irb-config.git ~/.irb
+    git clone git://github.com/DainisL/irb-config.git ~/.irb
     cd ~/.irb
     make install
 
